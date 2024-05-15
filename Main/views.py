@@ -145,7 +145,7 @@ class MainView(TemplateView):
                         print('Total Sum :' + str(sum))
                         print('Average :' + str(avg))
 
-                        if avg < 280:
+                        if avg < 180:
                             answer = "The signature is real."
                         else:
                             answer = "The signature is forged."
